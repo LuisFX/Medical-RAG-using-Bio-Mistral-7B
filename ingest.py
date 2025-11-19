@@ -24,7 +24,7 @@ qdrant = Qdrant.from_documents(
     embeddings,
     url=url,
     prefer_grpc=False,
-    collection_name="vector_db"
+    collection_name="medical-rag-biomistral"
 )
 
 print("Vector DB Successfully Created!")
